@@ -1,0 +1,45 @@
+# Function to generate NER labels
+def generate_ner_labels(text):
+    prompt = f"""
+You are a language model trained to assist with Named Entity Recognition (NER).
+Tokenize the following sentence and label each token using the BIO format for NER.
+
+The following entity types should be recognized:
+- B-PER (Person)
+- I-PER (Person, continuation)
+- B-ORG (Organization)
+- I-ORG (Organization, continuation)
+- B-LOC (Location)
+- I-LOC (Location, continuation)
+- B-DATE (Date)
+- I-DATE (Date, continuation)
+- B-ACT (Action)
+- B-EMO (Emotion)
+- B-SPIRIT (Spiritual Entity: God, angel, ghost, spirit)
+- B-ROLE (Role)
+- O (Other)
+
+Consider the following guidelines for labeling:
+1. **Person (B-PER)**: Names of people, characters, or any entity representing a person.
+2. **Organization (B-ORG)**: Names of companies, institutions, etc.
+3. **Location (B-LOC)**: Geographical locations such as cities, countries, landmarks, etc.
+   - **Note**: If "worlds" refers to a collection of planets or a geographical setting (e.g., "worlds in the galaxy"), label it as **B-LOC**.
+   - **Note**: If "worlds" refers to a fictional or metaphorical idea (e.g., "worlds of possibilities"), label it as **O**.
+4. **Date (B-DATE)**: Specific dates or time references (e.g., January 1st, 2025).
+5. **Action (B-ACT)**: Action verbs such as "went", "ran", "achieved", etc.
+6. **Emotion (B-EMO)**: Emotional states such as "happy", "sad", "angry", "frustration" "jealousy" "love" etc.
+7. **Spiritual Entities (B-SPIRIT)**: Spiritual entities such as "God", "angel", "ghost", "spirit", etc. **Only these specific words** should be labeled as **B-SPIRIT**.
+   - Example: "God" → **B-SPIRIT**, "Angel" → **B-SPIRIT**, "Ghost" → **B-SPIRIT**, "Spirit" → **B-SPIRIT**
+8. **Other (O)**: Non-entity tokens, such as stop words or punctuation, and general terms like "worlds" (if not referring to spiritual realms).
+**Important: Do not break contractions or possessives like "he'll", "we're", "they're", "John's", etc. Treat them as single tokens.**
+
+Here is an example of how you should structure the output:
+{{
+  "tokens": ["John", "went", "to", "New", "York", "on", "January", "1st", "."],
+  "labels": ["B-PER", "O", "O", "B-LOC", "I-LOC", "O", "B-DATE", "I-DATE", "O"]
+}}
+Now process the following sentence:
+"{text}"
+Return only a valid JSON response.
+Do not include any explanations, extra text, or markdown formatting. Return only a valid JSON object.
+"""

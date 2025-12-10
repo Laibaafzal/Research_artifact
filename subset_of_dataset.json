@@ -1,0 +1,626 @@
+[
+  {
+    "tokens": ["I", "am", "Knull", "."], 
+    "labels": ["O", "O", "B-PER", "O"]
+  },
+  {
+    "tokens": ["God", "of", "the", "void", "."], 
+    "labels": ["B-SPIRIT", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Slicer", "of", "worlds", "."], 
+    "labels": ["B-ROLE", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Long", "ago", ","], 
+    "labels": ["B-DATE", "I-DATE", "O"]
+  },
+  {
+    "tokens": ["when", "light", "invaded", "my", "kingdom", ","], 
+    "labels": ["O", "O", "B-ACT", "O", "B-LOC", "O"]
+  },
+  {
+    "tokens": ["my", "symbiote", "children", "betrayed", "me"], 
+    "labels": ["O", "O", "O", "B-ACT", "O"]
+  },
+  {
+    "tokens": ["and", "imprisoned", "me", "here", "."], 
+    "labels": ["O", "B-ACT", "O", "O", "O"]
+  },
+  {
+    "tokens": ["At", "last", ",", "a", "codex", "has", "been", "created", "."], 
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "B-ACT", "O"]
+  },
+  {
+    "tokens": ["and", "annihilate", "every", "living", "planet"], 
+    "labels": ["O", "B-ACT", "O", "O", "B-LOC"]
+  },
+   {
+    "tokens": ["So", "you're", "saying", "in", "this", "universe", ","], 
+    "labels": ["O", "O", "B-ACT", "O", "O", "B-LOC", "O"]
+  },
+  {
+    "tokens": ["there's", "these", "superhero", "people", "."], 
+    "labels": ["O", "O", "B-ROLE", "O", "O"]
+  },
+  {
+    "tokens": ["'", "Cause", "I'll", "tell", "you", "what", ",", "man", ","], 
+    "labels": ["O", "O", "O", "B-ACT", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["aliens", ",", "they", "do", "not", "love", "stones", "."], 
+    "labels": ["O", "O", "O", "O", "O", "B-EMO", "O", "O"]
+  },
+  {
+    "tokens": ["Eddie", ",", "don't", "start", ".", "No", "."], 
+    "labels": ["B-PER", "O", "O", "B-ACT", "O", "O", "O"]
+  },
+  {
+    "tokens": ["No", ",", "they", "do", "not", "love", "stones", "."], 
+    "labels": ["O", "O", "O", "O", "O", "B-EMO", "O", "O"]
+  },
+  {
+    "tokens": ["Do", "you", "know", "what", "they", "love", "?"], 
+    "labels": ["O", "O", "B-ACT", "O", "O", "B-EMO", "O"]
+  },
+  {
+    "tokens": ["This", "is", "Kelly", "Roulet", "reporting", "from", "San", "Francisco", "."], 
+    "labels": ["O", "O", "B-PER", "I-PER", "B-ACT", "O", "B-LOC", "I-LOC", "O"]
+  },
+  {
+    "tokens": ["Police", "are", "still", "trying", "to", "locate"], 
+    "labels": ["B-ORG", "O", "O", "B-ACT", "O", "B-ACT"]
+  },
+  {
+    "tokens": ["former", "reporter", "Eddie", "Brock", "for", "questioning", "..."], 
+    "labels": ["O", "B-ROLE", "B-PER", "I-PER", "O", "B-ACT", "O"]
+  },
+  {
+    "tokens": ["4,752", "US", "troops", "have", "been", "killed", "in", "Vietnam", "."], 
+    "labels": ["B-DATE", "B-ORG", "O", "O", "O", "B-ACT", "O", "B-LOC", "O"]
+  },
+  {
+    "tokens": ["Private", "First", "Class", "Dennis", "Walter", "Kipp", ","], 
+    "labels": ["O", "O", "O", "B-PER", "I-PER", "I-PER", "O"]
+  },
+  {
+    "tokens": ["18", "years", "old", "."], 
+    "labels": ["B-DATE", "I-DATE", "I-DATE", "O"]
+  },
+  {
+    "tokens": ["Private", "Eric", "Alan", "Bosch", ",", "21", "years", "old", "."], 
+    "labels": ["O", "B-PER", "I-PER", "I-PER", "O", "B-DATE", "I-DATE", "I-DATE", "O"]
+  },
+  {
+    "tokens": ["Mr.", "Kunstler", "!"], 
+    "labels": ["B-PER", "I-PER", "O"]
+  },
+  {
+    "tokens": ["Lance", "Corporal", "Robert", "Earl", "Ellis", ",", "19", "years", "old", "."], 
+    "labels": ["B-PER", "B-ROLE", "B-PER", "I-PER", "I-PER", "O", "B-DATE", "I-DATE", "I-DATE", "O"]
+  },
+  {
+    "tokens": ["Mr.", "Kunstler", "!", "He", "will", "not", "read"], 
+    "labels": ["B-PER", "I-PER", "O", "O", "O", "O", "B-ACT"]
+  },
+  {
+    "tokens": ["5,000", "names", "for", "the", "record", "!"], 
+    "labels": ["O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Robert", "Ford", ",", "21", "years", "old", "."], 
+    "labels": ["B-PER", "I-PER", "O", "B-DATE", "I-DATE", "I-DATE", "O"]
+  },
+  {
+    "tokens": ["There", "will", "be", "order", "!"], 
+    "labels": ["O", "O", "O", "B-ACT", "O"]
+  },
+  {
+    "tokens": ["Staff", "Sergeant", "David", "Cruz", "Chavez", ",", "31", "years", "old", "."], 
+    "labels": ["O", "O", "B-PER", "I-PER", "I-PER", "O", "B-DATE", "I-DATE", "I-DATE", "O"]
+  },
+  {
+    "tokens": ["Lance", "Corporal", "Douglas", "W.", "Jackson", ",", "19", "years", "old", "."], 
+    "labels": ["B-PER", "O", "B-PER", "I-PER", "I-PER", "O", "B-DATE", "I-DATE", "I-DATE", "O"]
+  },
+  {
+    "tokens": ["There", "will", "be", "order", "!"], 
+    "labels": ["O", "O", "O", "B-ACT", "O"]
+  },
+  {
+    "tokens": ["Private", "First", "Class", "William", "Melvin", "Johnson", ",", "20", "years", "old", "."], 
+    "labels": ["O", "O", "O", "B-PER", "I-PER", "I-PER", "O", "B-DATE", "I-DATE", "I-DATE", "O"]
+  },
+  {
+    "tokens": ["There", "will", "be", "order", "!"], 
+    "labels": ["O", "O", "O", "B-ACT", "O"]
+  },
+  {
+    "tokens": ["-", "Lance", "Corporal", "Robert", "Ryan", "Hammond", "…", "-", "There", "will", "be", "order", "!"], 
+    "labels": ["O", "B-PER", "I-PER", "I-PER", "I-PER", "I-PER", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["If", "I", "do", "these", "things", ",", "my", "government", "will", "look", "favorably", "on", "me", "."], 
+    "labels": ["O", "O", "B-ACT", "O", "O", "O", "O", "B-ORG", "O", "B-ACT", "O", "O", "O", "O"]
+  },
+   {
+    "tokens": ["to", "speak", "for", "the", "group", ",", "and", "I've", "been", "advised"], 
+    "labels": ["O", "B-ACT", "O", "O", "B-ORG", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["and", "remorse", "for", "those", "actions", "."], 
+    "labels": ["O", "B-EMO", "O", "O", "B-ACT", "O"]
+  },
+  {
+    "tokens": ["if", "you", "make", "it", "respectful", ",", "if", "you", "make", "it", "remorseful", "and", "to", "the", "point", ","], 
+    "labels": ["O", "O", "B-ACT", "O", "B-EMO", "O", "O", "O", "B-ACT", "O", "B-EMO", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Does", "she", "have", "a", "doctor", "?", "No", ",", "she", "doesn't", "want", "to", "see", "them", "."], 
+    "labels": ["O", "B-PER", "O", "O", "B-ROLE", "O", "O", "O", "B-EMO", "O", "O", "O", "B-ACT", "O", "O"]
+  },
+  {
+    "tokens": ["THE", "BEVERLY", "HILLS", "COP", ":", "AXEL", "F"], 
+    "labels": ["O", "B-LOC", "I-LOC", "B-ROLE", "O", "B-PER", "I-PER"]
+  },
+  {
+    "tokens": ["You", "motivated", "me", "to", "become", "a", "cop"], 
+    "labels": ["O", "B-ACT", "O", "O", "B-ACT", "O", "B-ROLE"]
+  },
+  {
+    "tokens": ["For", "God", "Sake", "!"], 
+    "labels": ["O", "B-SPIRIT", "I-SPIRIT", "O"]
+  },
+  {
+    "tokens": ["Christ", ",", "I'm", "giving", "you", "gold", "here", ","], 
+    "labels": ["B-SPIRIT", "O", "O", "O", "O", "O", "O", "O"]
+  },
+   {
+    "tokens": ["Jesus", "fucking", "Christ", "."], 
+    "labels": ["B-SPIRIT", "O", "I-SPIRIT", "O"]
+  },
+  {
+    "tokens": ["you're", "killing", "your", "demons", "."], 
+    "labels": ["O", "B-ACT", "O", "B-SPIRIT", "O"]
+  },
+  {
+    "tokens": ["-", "Afternoon", ".", "-", "Hi", ",", "Chef", "."], 
+    "labels": ["O", "B-TIME", "O", "O", "O", "O", "B-PER", "O"]
+  },
+   {
+    "tokens": ["To", "the", "morning", ",", "sing", "a", "lovely", "flower"], 
+    "labels": ["O", "O", "B-TIME", "O", "B-ACT", "O", "B-EMO", "O"]
+  },
+  {
+    "tokens": ["Oh", ",", "sorry", ".", "Sorry", ".", "Morning", "."], 
+    "labels": ["O", "O", "B-EMO", "O", "B-EMO", "O", "B-TIME", "O"]
+  },
+  {
+   "tokens": ["Alice", "joined", "the", "FBI", "as", "a", "special", "agent", "."],
+    "labels": ["B-PER", "B-ACT", "O", "B-ORG", "O", "O", "B-ROLE", "I-ROLE", "O"]
+ },
+ {
+     "tokens": ["The", "CEO", "of", "TechCorp", "resigned", "yesterday", "."],
+      "labels": ["O", "B-ROLE", "O", "B-ORG", "B-ACT", "B-DATE", "O"]
+  },
+  {
+  "tokens": ["John", "felt", "happy", "after", "the", "meeting", "."],
+  "labels": ["B-PER", "O", "B-EMO", "O", "O", "B-ACT", "O"]
+},
+{
+  "tokens": ["The", "angel", "appeared", "in", "Jerusalem", "."],
+  "labels": ["O", "B-SPIRIT", "B-ACT", "O", "B-LOC", "O"]
+},
+{
+  "tokens": ["Dr.", "Smith", "was", "appointed", "as", "the", "head", "of", "OncoMed", "."],
+  "labels": ["B-PER", "I-PER", "O", "B-ACT", "O", "O", "B-ROLE", "O", "B-ORG", "O"]
+},
+{
+  "tokens": ["The", "party", "will", "start", "on", "Monday", "."],
+  "labels": ["O", "O", "O", "B-ACT", "O", "B-DATE", "O"]
+},
+{
+  "tokens": ["Maria", "visited", "the", "Eiffel", "Tower", "last", "week", "."],
+  "labels": ["B-PER", "B-ACT", "O", "B-LOC", "I-LOC", "B-DATE", "I-DATE", "O"]
+},
+{
+  "tokens": ["The", "king", "summoned", "his", "advisor", "."],
+  "labels": ["O", "B-ROLE", "B-ACT", "O", "B-ROLE", "O"]
+},
+{
+  "tokens": ["Gabriel", "spoke", "to", "the", "spirit", "in", "the", "church", "."],
+  "labels": ["B-PER", "B-ACT", "O", "O", "B-SPIRIT", "O", "O", "B-LOC", "O"]
+},
+{
+  "tokens": ["She", "signed", "a", "contract", "with", "TechSolutions", "."],
+  "labels": ["O", "B-ACT", "O", "O", "O", "B-ORG", "O"]
+},
+{
+  "tokens": ["David", "was", "appointed", "as", "the", "CTO", "of", "InnoTech", "."],
+  "labels": ["B-PER", "O", "B-ACT", "O", "O", "B-ROLE", "O", "B-ORG", "O"]
+},
+{
+  "tokens": ["A", "miracle", "happened", "on", "Sunday", "."],
+  "labels": ["O", "B-SPIRIT", "B-ACT", "O", "B-DATE", "O"]
+},
+{
+  "tokens": ["Emily", "was", "excited", "to", "meet", "the", "new", "manager", "."],
+  "labels": ["B-PER", "O", "B-EMO", "O", "B-ACT", "O", "O", "B-ROLE", "O"]
+},
+{
+  "tokens": ["The", "ghost", "appeared", "in", "the", "old", "castle", "."],
+  "labels": ["O", "B-SPIRIT", "B-ACT", "O", "O", "O", "B-LOC", "O"]
+},
+{
+  "tokens": ["Michael", "joined", "Google", "as", "a", "software", "engineer", "."],
+  "labels": ["B-PER", "B-ACT", "B-ORG", "O", "O", "B-ROLE", "I-ROLE", "O"]
+},
+{
+  "tokens": ["The", "ceremony", "will", "be", "held", "on", "Friday", "."],
+  "labels": ["O", "O", "O", "O", "B-ACT", "O", "B-DATE", "O"]
+},
+{
+  "tokens": ["Sophia", "saw", "an", "angel", "near", "the", "temple", "."],
+  "labels": ["B-PER", "B-ACT", "O", "B-SPIRIT", "O", "O", "B-LOC", "O"]
+},
+{
+  "tokens": ["The", "CEO", "of", "HealthCorp", "resigned", "yesterday", "."],
+  "labels": ["O", "B-ROLE", "O", "B-ORG", "B-ACT", "B-DATE", "O"]
+},
+{
+  "tokens": ["Peter", "felt", "sad", "after", "losing", "the", "match", "."],
+  "labels": ["B-PER", "O", "B-EMO", "O", "B-ACT", "O", "O", "O"]
+},
+{
+  "tokens": ["A", "spirit", "whispered", "through", "the", "ancient", "forest", "."],
+  "labels": ["O", "B-SPIRIT", "B-ACT", "O", "O", "O", "B-LOC", "O"]
+},
+{
+  "tokens": ["Olivia", "was", "promoted", "to", "chief", "designer", "at", "CreativeLab", "."],
+  "labels": ["B-PER", "O", "B-ACT", "O", "B-ROLE", "I-ROLE", "O", "B-ORG", "O"]
+},
+{
+  "tokens": ["The", "meeting", "took", "place", "in", "London", "on", "Tuesday", "."],
+  "labels": ["O", "O", "B-ACT", "O", "O", "B-LOC", "O", "B-DATE", "O"]
+},
+{
+  "tokens": ["Anna", "found", "a", "heavenly", "angel", "in", "the", "chapel", "."],
+  "labels": ["B-PER", "B-ACT", "O", "O", "B-SPIRIT", "O", "O", "B-LOC", "O"]
+},
+{
+  "tokens": ["Mark", "signed", "a", "contract", "with", "FutureTech", "."],
+  "labels": ["B-PER", "B-ACT", "O", "O", "O", "B-ORG", "O"]
+},
+{
+  "tokens": ["The", "king", "appointed", "a", "new", "advisor", "."],
+  "labels": ["O", "B-ROLE", "B-ACT", "O", "O", "B-ROLE", "O"]
+},
+{
+  "tokens": ["Lucy", "felt", "joy", "when", "she", "heard", "the", "good", "news", "."],
+  "labels": ["B-PER", "O", "B-EMO", "O", "O", "B-ACT", "O", "O", "O", "O"]
+},
+{
+  "tokens": ["The", "angel", "descended", "on", "Christmas", "Eve", "."],
+  "labels": ["O", "B-SPIRIT", "B-ACT", "O", "B-DATE", "I-DATE", "O"]
+},
+{
+  "tokens": ["Jack", "joined", "the", "army", "as", "a", "captain", "."],
+  "labels": ["B-PER", "B-ACT", "O", "O", "O", "O", "B-ROLE", "O"]
+},
+{
+  "tokens": ["The", "CTO", "of", "Innovatech", "resigned", "on", "Monday", "."],
+  "labels": ["O", "B-ROLE", "O", "B-ORG", "B-ACT", "O", "B-DATE", "O"]
+},
+{
+  "tokens": ["Mia", "saw", "a", "spirit", "near", "the", "old", "church", "."],
+  "labels": ["B-PER", "B-ACT", "O", "B-SPIRIT", "O", "O", "O", "B-LOC", "O"]
+},
+{
+  "tokens": ["The", "manager", "assigned", "tasks", "to", "the", "team", "."],
+  "labels": ["O", "B-ROLE", "B-ACT", "O", "O", "O", "O", "O"]
+},
+{
+  "tokens": ["Sophia", "celebrated", "her", "birthday", "on", "Friday", "."],
+  "labels": ["B-PER", "B-ACT", "O", "O", "O", "B-DATE", "O"]
+},
+{
+  "tokens": ["I", "can't", "believe", "Peter", "vanished", "last", "night", "."],
+  "labels": ["O", "O", "O", "B-PER", "B-ACT", "B-DATE", "I-DATE", "O"]
+},
+{
+  "tokens": ["A", "spirit", "is", "watching", "over", "this", "house", "."],
+  "labels": ["O", "B-SPIRIT", "O", "B-ACT", "O", "O", "B-LOC", "O"]
+},
+{
+  "tokens": ["Claire", "stormed", "into", "the", "CEO", "'s", "office", "."],
+  "labels": ["B-PER", "B-ACT", "O", "O", "B-ROLE", "O", "O", "O"]
+},
+{
+  "tokens": ["We", "must", "leave", "Paris", "before", "dawn", "."],
+  "labels": ["O", "O", "B-ACT", "B-LOC", "O", "B-DATE", "O"]
+},
+{
+  "tokens": ["The", "angel", "whispered", "secrets", "in", "my", "ear", "."],
+  "labels": ["O", "B-SPIRIT", "B-ACT", "O", "O", "O", "O", "O"]
+},
+{
+  "tokens": ["Detective", "Smith", "solved", "the", "case", "yesterday", "."],
+  "labels": ["B-ROLE", "B-PER", "B-ACT", "O", "O", "B-DATE", "O"]
+},
+{
+  "tokens": ["I", "felt", "a", "chill", "when", "the", "ghost", "entered", "."],
+  "labels": ["O", "O", "O", "B-EMO", "O", "O", "B-SPIRIT", "B-ACT", "O"]
+},
+{
+  "tokens": ["The", "general", "gave", "orders", "at", "the", "barracks", "."],
+  "labels": ["O", "B-ROLE", "B-ACT", "O", "O", "O", "B-LOC", "O"]
+},
+{
+  "tokens": ["Megan", "signed", "a", "deal", "with", "StarTech", "today", "."],
+  "labels": ["B-PER", "B-ACT", "O", "O", "O", "B-ORG", "B-DATE", "O"]
+},
+{
+  "tokens": ["The", "angel", "saved", "him", "from", "danger", "."],
+  "labels": ["O", "B-SPIRIT", "B-ACT", "O", "O", "O", "O"]
+},
+{
+  "tokens": ["I", "cannot", "forgive", "the", "CEO", "for", "his", "actions", "."],
+  "labels": ["O", "O", "B-ACT", "O", "B-ROLE", "O", "O", "O", "O"]
+},
+{
+  "tokens": ["Lucas", "felt", "relieved", "after", "the", "storm", "."],
+  "labels": ["B-PER", "O", "B-EMO", "O", "O", "O", "O"]
+},
+{
+  "tokens": ["The", "king", "awarded", "the", "soldier", "a", "medal", "."],
+  "labels": ["O", "B-ROLE", "B-ACT", "O", "B-ROLE", "O", "O", "O"]
+},
+{
+  "tokens": ["I", "heard", "a", "spirit", "crying", "in", "the", "abandoned", "house", "."],
+  "labels": ["O", "B-ACT", "O", "B-SPIRIT", "B-ACT", "O", "O", "O", "B-LOC", "O"]
+},
+{
+  "tokens": ["Jennifer", "was", "appointed", "as", "chief", "engineer", "at", "RoboCorp", "."],
+  "labels": ["B-PER", "O", "B-ACT", "O", "B-ROLE", "I-ROLE", "O", "B-ORG", "O"]
+},
+{
+  "tokens": ["The", "meeting", "will", "take", "place", "in", "New", "York", "on", "Monday", "."],
+  "labels": ["O", "O", "O", "B-ACT", "O", "O", "B-LOC", "I-LOC", "O", "B-DATE", "O"]
+},
+{
+  "tokens": ["I", "was", "terrified", "when", "the", "angel", "appeared", "."],
+  "labels": ["O", "O", "B-EMO", "O", "O", "B-SPIRIT", "B-ACT", "O"]
+},
+{
+  "tokens": ["Captain", "Harris", "led", "the", "team", "to", "victory", "."],
+  "labels": ["B-ROLE", "B-PER", "B-ACT", "O", "O", "O", "O"]
+},
+{
+  "tokens": ["Sophia", "signed", "the", "contract", "with", "TechLabs", "last", "week", "."],
+  "labels": ["B-PER", "B-ACT", "O", "O", "O", "B-ORG", "B-DATE", "I-DATE", "O"]
+},
+{
+  "tokens": ["A", "spirit", "guided", "me", "through", "the", "dark", "forest", "."],
+  "labels": ["O", "B-SPIRIT", "B-ACT", "O", "O", "O", "O", "B-LOC", "O"]
+},
+{
+  "tokens": ["I", "saw", "David", "fighting", "in", "the", "street", "."],
+  "labels": ["O", "B-ACT", "B-PER", "B-ACT", "O", "O", "B-LOC", "O"]
+},
+{
+  "tokens": ["The", "angel", "saved", "her", "from", "the", "burning", "house", "."],
+  "labels": ["O", "B-SPIRIT", "B-ACT", "O", "O", "O", "O", "B-LOC", "O"]
+},
+{
+  "tokens": ["Mia", "was", "appointed", "the", "captain", "of", "the", "team", "."],
+  "labels": ["B-PER", "O", "B-ACT", "O", "B-ROLE", "O", "O", "O", "O"]
+},
+{
+  "tokens": ["We", "will", "meet", "at", "the", "Eiffel", "Tower", "tomorrow", "."],
+  "labels": ["O", "O", "B-ACT", "O", "O", "B-LOC", "I-LOC", "B-DATE", "O"]
+},
+{
+  "tokens": ["He", "felt", "happy", "after", "receiving", "the", "award", "."],
+  "labels": ["O", "O", "B-EMO", "O", "B-ACT", "O", "O", "O"]
+},
+{
+  "tokens": ["The", "CEO", "of", "MegaCorp", "resigned", "yesterday", "."],
+  "labels": ["O", "B-ROLE", "O", "B-ORG", "B-ACT", "B-DATE", "O"]
+},
+{
+  "tokens": ["An", "angel", "appeared", "in", "the", "cemetery", "."],
+  "labels": ["O", "B-SPIRIT", "B-ACT", "O", "O", "B-LOC", "O"]
+},
+{
+  "tokens": ["Sarah", "joined", "the", "FBI", "as", "a", "special", "agent", "."],
+  "labels": ["B-PER", "B-ACT", "O", "B-ORG", "O", "O", "B-ROLE", "I-ROLE", "O"]
+},
+{
+  "tokens": ["I", "felt", "a", "shiver", "when", "the", "ghost", "entered", "the", "room", "."],
+  "labels": ["O", "O", "O", "B-EMO", "O", "O", "B-SPIRIT", "B-ACT", "O", "B-LOC", "O"]
+},
+{
+  "tokens": ["The", "general", "gave", "orders", "at", "the", "barracks", "today", "."],
+  "labels": ["O", "B-ROLE", "B-ACT", "O", "O", "O", "B-LOC", "B-DATE", "O"]
+},
+{
+  "tokens": ["Alice", "signed", "a", "contract", "with", "InnoTech", "."],
+  "labels": ["B-PER", "B-ACT", "O", "O", "O", "B-ORG", "O"]
+},
+{
+  "tokens": ["The", "king", "awarded", "the", "soldier", "a", "medal", "yesterday", "."],
+  "labels": ["O", "B-ROLE", "B-ACT", "O", "B-ROLE", "O", "O", "B-DATE", "O"]
+},
+{
+  "tokens": ["I", "was", "terrified", "when", "the", "angel", "appeared", "in", "the", "church", "."],
+  "labels": ["O", "O", "B-EMO", "O", "O", "B-SPIRIT", "B-ACT", "O", "O", "B-LOC", "O"]
+},
+{
+  "tokens": ["Captain", "Harris", "led", "the", "soldiers", "into", "battle", "."],
+  "labels": ["B-ROLE", "B-PER", "B-ACT", "O", "O", "O", "O", "O"]
+},
+{
+  "tokens": ["Sophia", "celebrated", "her", "birthday", "on", "Friday", "night", "."],
+  "labels": ["B-PER", "B-ACT", "O", "O", "O", "B-DATE", "O", "O"]
+},
+{
+  "tokens": ["An", "angel", "guided", "me", "through", "the", "dark", "forest", "last", "night", "."],
+  "labels": ["O", "B-SPIRIT", "B-ACT", "O", "O", "O", "O", "B-LOC", "B-DATE", "I-DATE", "O"]
+},
+{
+  "tokens": ["Michael", "felt", "nervous", "before", "the", "presentation", "."],
+  "labels": ["B-PER", "O", "B-EMO", "O", "O", "B-ACT", "O"]
+},
+{
+  "tokens": ["The", "CEO", "assigned", "tasks", "to", "the", "team", "today", "."],
+  "labels": ["O", "B-ROLE", "B-ACT", "O", "O", "O", "O", "B-DATE", "O"]
+},
+{
+  "tokens": ["Lucy", "signed", "the", "deal", "with", "TechLabs", "last", "week", "."],
+  "labels": ["B-PER", "B-ACT", "O", "O", "O", "B-ORG", "B-DATE", "I-DATE", "O"]
+},
+{
+  "tokens": ["A", "spirit", "saved", "me", "from", "the", "fire", "in", "the", "cave", "."],
+  "labels": ["O", "B-SPIRIT", "B-ACT", "O", "O", "O", "O", "O", "O", "B-LOC", "O"]
+},
+{
+    "tokens": ["Yes", ",", "ma'am", "."], 
+    "labels": ["O", "O", "B-PER", "O"]
+  },
+  {
+    "tokens": ["You", "fucking", "son", "of", "a", "bitch", "!"], 
+    "labels": ["O", "B-EMO", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["You've", "signed", "your", "fucking", "death", "warrant", ",", "you", "motherfucker", "!"], 
+    "labels": ["O", "B-ACT", "O", "B-EMO", "I-EMO", "I-EMO", "O", "O", "B-EMO", "O"]
+  },
+  {
+    "tokens": ["You're", "fucking", "dog", "shit", "."], 
+    "labels": ["O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["You're", "fucking", "dead", "."], 
+    "labels": ["O", "O", "B-EMO", "O"]
+  },
+  {
+    "tokens": ["No", "!", "Don't", "shoot", ".", "Don't", "shoot", "."], 
+    "labels": ["O", "O", "O", "B-ACT", "O", "O", "B-ACT", "O"]
+  },
+  {
+    "tokens": ["Fuck", "!"], 
+    "labels": ["O", "O"]
+  },
+  {
+    "tokens": ["Anybody", "put", "a", "shot", "in", "my", "son"], 
+    "labels": ["O", "B-ACT", "O", "O", "O", "O", "B-PER"]
+  },
+  {
+    "tokens": ["and", "you", "will", "be", "on", "the", "receiving", "end", "."], 
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["It's", "all", "right", ",", "baby", ",", "I'm", "here", "."], 
+    "labels": ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Big", "Cat", "!"], 
+    "labels": ["O", "O", "O"]
+  },
+  {
+    "tokens": ["Hey", ",", "Wilder", "."], 
+    "labels": ["O", "O", "B-PER", "O"]
+  },
+  {
+    "tokens": ["You", "got", "all", "mixed", "up", "in", "this", "."], 
+    "labels": ["O", "B-ACT", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Where's", "Cash", "?"], 
+    "labels": ["O", "B-PER", "O"]
+  },
+  {
+    "tokens": ["Things", "will", "go", "smoother", "if", "you", "and", "me", "make", "this", "trade", "."], 
+    "labels": ["O", "O", "B-ACT", "O", "O", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Keep", "emotions", "out", "of", "it", "."], 
+    "labels": ["O", "B-EMO", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["You", "come", "driving", "up", "with", "my", "son", "as", "a", "hood", "ornament", "."], 
+    "labels": ["O", "B-ACT", "B-ACT", "O", "O", "O", "B-PER", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["I", "thought", "you", "was", "reformed", ",", "preacher", "."], 
+    "labels": ["O", "O", "O", "O", "O", "O", "B-ROLE", "O"]
+  },
+  {
+    "tokens": ["Hell", ",", "now", "you're", "speaking", "my", "language", "."], 
+    "labels": ["O", "O", "O", "O", "B-ACT", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Let", "my", "boy", "down", "."], 
+    "labels": ["O", "O", "B-PER", "B-ACT", "O"]
+  },
+  {
+    "tokens": ["I", "told", "you", ".", "My", "mom", "made", "me", "this", "pin", "."], 
+    "labels": ["O", "B-ACT", "O", "O", "O", "B-PER", "B-ACT", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["It's", "July", "."], 
+    "labels": ["O", "B-DATE", "O"]
+  },
+  {
+    "tokens": ["-", "I'll", "see", "you", "in", "there", ".", "-", "Mm-mm", "."], 
+    "labels": ["O", "O", "B-ACT", "O", "O", "O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["Everyone", "on", "this", "side", "..."], 
+    "labels": ["O", "O", "O", "O", "O"]
+  },
+  {
+    "tokens": ["is", "weird", "."], 
+    "labels": ["O", "B-EMO", "O"]
+  },
+  {
+    "tokens": ["Leave", "her", "alone", ",", "Rex", "."], 
+    "labels": ["B-ACT", "O", "O", "O", "B-PER", "O"]
+  },
+  {
+    "tokens": ["God", "forbid", "anyone", "should", "actually", "enjoy", "their", "work", "."], 
+    "labels": ["B-SPIRIT", "B-ACT", "O", "O", "O", "B-EMO", "O", "B-ACT", "O"]
+  },
+  {
+    "tokens": ["Area", "51", "will", "be", "fully", "decommissioned"], 
+    "labels": ["B-LOC", "I-LOC", "O", "O", "O", "B-ACT"]
+  },
+  {
+    "tokens": ["was", "to", "work", "up", "there", "at", "51", "doing", "what", "I", "do", "."], 
+    "labels": ["O", "O", "B-ACT", "O", "O", "O", "B-LOC", "B-ACT", "O", "O", "B-ACT", "O"]
+  },
+  {
+    "tokens": ["And", "I", "wish", "I", "could", "have", "shown", "him"], 
+    "labels": ["O", "O", "B-EMO", "O", "O", "B-ACT", "B-ACT", "O"]
+  },
+  {
+    "tokens": ["what", "we've", "built", "down", "here", "."], 
+    "labels": ["O", "O", "B-ACT", "O", "O", "O"]
+  },
+  {
+    "tokens": ["You're", "okay", "."], 
+    "labels": ["O", "B-EMO", "O"]
+  },
+  {
+    "tokens": ["Just", "..."], 
+    "labels": ["O", "O"]
+  },
+  {
+    "tokens": ["try", "to", "breathe", ".", "Okay", "?"], 
+    "labels": ["B-ACT", "O", "B-ACT", "O", "B-EMO", "O"]
+  },
+  {
+    "tokens": ["When", "my", "brother", "and", "I", "were", "kids"], 
+    "labels": ["O", "O", "B-PER", "O", "O", "O", "O"]
+  }
+]
